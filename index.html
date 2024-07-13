@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div>
+        <div class="top">
+            <div class="color-picker">
+                <p>Text-color-picker</p>
+                <input id="Text-color-dropdown" type="color"/>
+            </div>
+            <div class="color-picker">
+                <p>Backgroud-color-picker</p>
+                <input id="Background-color-dropdown" type="color"/>
+            </div>
+            <div class="color-picker">
+                <p>Font-size</p>
+                <select name="Font-size" id="Font-size-drop">
+                    <option value="5">5px</option>
+                    <option value="5">10px</option>
+                    <option value="5">20px</option>
+                    <option value="5">30px</option>
+                    <option value="5">40px</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="canvas-div">
+        <canvas class="canvas" id="myCanvas">
+
+        </canvas>
+    </div>
+    <div class="button">
+        <button class="clear-btn" id="clear-btn">clear</button>
+        <button class="save-download-btn" id="save-download-btn">save And Download</button>
+        <button class="retrive-btn" id="retrive-btn">Retrive</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
